@@ -1,0 +1,31 @@
+# Data
+data/
+*.jpg
+*.jpeg
+*.png
+!assets/*.png
+
+# Checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
