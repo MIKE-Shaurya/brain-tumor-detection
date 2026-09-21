@@ -103,8 +103,8 @@ Fill in your own numbers here once you've trained on the full dataset, e.g.:
 
 | Metric | Score |
 |---|---|
-| Test Accuracy | e.g. 96.2% |
-| Macro F1 | e.g. 0.95 |
+| Test Accuracy |  96.2% |
+| Macro F1 |  0.95 |
 
 ## 🧪 Key Techniques Used
 
