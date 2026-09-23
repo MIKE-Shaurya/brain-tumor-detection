@@ -100,7 +100,12 @@ After training, `evaluate.py` writes:
 - Training/validation loss & accuracy curves to `assets/training_curves.png`
 
 Fill in your own numbers here once you've trained on the full dataset, e.g.:
-
+| Class | Precision | Recall | F1-score |
+|---|---|---|---|
+| Glioma | 0.98 | 0.84 | 0.90 |
+| Meningioma | 0.90 | 0.97 | 0.94 |
+| No Tumor | 0.95 | 1.00 | 0.97 |
+| Pituitary | 0.99 | 1.00 | 0.99 |
 | Metric | Score |
 |---|---|
 | Test Accuracy |  96.2% |
