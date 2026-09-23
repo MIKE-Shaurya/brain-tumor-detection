@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Detection — CNN Image Classifier
+# 🧠 BrainSight — MRI Tumor Classifier 
 
 A PyTorch deep learning project that classifies brain MRI scans into four
 categories — **glioma**, **meningioma**, **pituitary tumor**, or **no tumor**
