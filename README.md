@@ -31,7 +31,7 @@ brain-tumor-detection/
 │   ├── config.py            # Central config (paths, hyperparameters)
 │   ├── dataset.py           # Dataset loading & transforms
 │   ├── model.py             # CNN architectures (custom + transfer learning)
-│   ├── train.py             # Training loop with checkpointing
+│   ├── train.py              # Training loop with checkpointing
 │   ├── evaluate.py          # Test-set evaluation, confusion matrix, metrics
 │   ├── predict.py           # Run inference on a single image
 │   └── utils.py             # Seeding, checkpoint I/O, plotting helpers
@@ -99,15 +99,15 @@ After training, `evaluate.py` writes:
 - A confusion matrix image to `assets/confusion_matrix.png`
 - Training/validation loss & accuracy curves to `assets/training_curves.png`
 
-Fill in your own numbers here once you've trained on the full dataset, e.g.:
 | Class | Precision | Recall | F1-score |
 |---|---|---|---|
 | Glioma | 0.98 | 0.84 | 0.90 |
 | Meningioma | 0.90 | 0.97 | 0.94 |
 | No Tumor | 0.95 | 1.00 | 0.97 |
-| Pituitary | 0.99 | 1.00 | 0.99 |
-| Metric | Score |
-|---|---|
+| Pituitary | 0.99 | 1.00 | 0.99 ||
+
+| Metric | Score | 
+| ---|---|
 | Test Accuracy |  96.2% |
 | Macro F1 |  0.95 |
 
